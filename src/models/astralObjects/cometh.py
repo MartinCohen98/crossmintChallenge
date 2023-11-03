@@ -20,3 +20,4 @@ class Cometh(AstralObject):
                 sent = True
             except SendingAstralObjectError:
                 print("Error sending cometh, trying again.")
+                # Should probably add a sleep timer in case of too many requests

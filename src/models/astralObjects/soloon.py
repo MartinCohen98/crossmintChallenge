@@ -20,3 +20,4 @@ class Soloon(AstralObject):
                 sent = True
             except SendingAstralObjectError:
                 print("Error sending polyanet, trying again.")
+                # Should probably add a sleep timer in case of too many requests
